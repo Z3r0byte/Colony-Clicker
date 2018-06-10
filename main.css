@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+}
+
+.taskbar {
+    border: solid 2px black;
+    background-color: white;
+    color: black;
+    height: 48px;
+    width: calc(100% - 14px);
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: 0;
+    padding: 0px 5px 0px 5px;
+}
+
+.possessions {
+    border: solid 2px black;
+    background-color: white;
+    color: black;
+    height: calc(100% - 54px);
+    width: 200px;
+    position: absolute;
+    top: 50px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.menu {
+    border: solid 2px black;
+    background-color: white;
+    color: black;
+    height: calc(100vh - 54px);
+    width: calc(100% - 209px);
+    position: absolute;
+    top: 50px;
+    left: 200px;
+    bottom: 0;
+    right: 0;
+    margin: 0;
+    padding: 0px 0px 0px 5px;
+}
+
+#colony {
+    display: block;
+}
+
+#trainingCamp {
+    display: none;
+}
+
+#research {
+    display: none;
+}

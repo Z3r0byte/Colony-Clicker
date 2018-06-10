@@ -1,0 +1,77 @@
+.button {
+    border: solid 2px black;
+    background-color: lightgrey;
+    color: black;
+    height: 15px;
+    width: max-content;
+    margin: 10px 5px 10px 5px;
+    padding: 4px;
+    float: left;
+    cursor: default;
+}
+
+.button:hover {
+    background-color: white;
+    cursor: pointer;
+}
+
+.button:active {
+    background-color: lightgrey;
+    cursor: default;
+}
+
+.buttonDisabled {
+    border: solid 2px black;
+    background-color: #878787;
+    color: black;
+    height: 15px;
+    width: max-content;
+    margin: 10px 5px 10px 5px;
+    padding: 4px;
+    float: left;
+    cursor: default;
+}
+
+.bigButton {
+    border: solid 2px black;
+    background-color: lightgrey;
+    color: black;
+    text-align: center;
+    height: max-content;
+    width: 90px;
+    margin: 10px 5px 10px 5px;
+    padding: 4px;
+    float: left;
+    cursor: default;
+}
+
+.bigButton:hover {
+    background-color: white;
+    cursor: pointer;
+}
+
+.bigButton:active {
+    background-color: lightgrey;
+    cursor: default;
+}
+
+.bigButtonDisabled {
+    border: solid 2px black;
+    background-color: #878787;
+    color: black;
+    text-align: center;
+    height: max-content;
+    width: 90px;
+    margin: 10px 5px 10px 5px;
+    padding: 4px;
+    float: left;
+    cursor: default;
+}
+
+.buttonHead {
+    font-size: 16px;
+}
+
+.buttonSub {
+    font-size: 12px;
+}

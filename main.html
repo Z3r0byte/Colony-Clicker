@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Colony Clicker</title>
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <link rel="stylesheet" type="text/css" href="buttons.css">
+    <script src="main.js"></script>
+    <script src="possessions.js"></script>
+    <script src="research.js"></script>
+    <script src="buttons.js"></script>
+</head>
+<body>
+
+
+<div class="taskbar">
+    <div id="colonyButton" class="buttonDisabled" onclick="changeTab('colony')">Colony (<span id="population">0</span>)</div>
+    <div id="trainingCampButton" class="button" onclick="changeTab('trainingCamp')">Training Camp</div>
+    <div id="researchButton" class="button" onclick="changeTab('research')">Research</div>
+</div>
+
+<div class="possessions">
+    <table>
+        <tr>
+            <td>Seeds: </td>
+            <td><span id="seeds">0</span></td>
+        </tr>
+        <tr>
+            <td>Ants: </td>
+            <td><span id="ants">0</span></td>
+        </tr>
+        <tr>
+            <td>Builders: </td>
+            <td><span id="builders">0</span></td>
+        </tr>
+    </table>
+</div>
+
+<div class="menu">
+
+    <div id="colony">
+
+        <div class="button" onclick="harvest('seeds', 1)">Harvest Seeds</div>
+
+        <div id="buyAnts" class="bigButton" onclick="buy('ants')">
+            <span class="buttonHead">Recruit Ant</span>
+            <span class="buttonSub">
+                <br />
+                Seeds (<span id="firstAntsCost">50</span>)
+            </span>
+        </div>
+
+    </div>
+
+    <div id="trainingCamp">
+
+        <div id="trainBuilders" class="bigButton" onclick="buy('builders')">
+            <span class="buttonHead">Train Builder</span>
+            <span class="buttonSub">
+                <br />
+                Ants (<span id="firstBuildersCost">1</span>)
+                <br />
+                Seeds (<span id="secondBuildersCost">500</span>)
+            </span>
+        </div>
+
+    </div>
+
+    <div id="research">
+
+        <div id="researchBuilderProfession" class="bigButton">
+            <span class="buttonHead">Builder Profession</span>
+            <span class="buttonSub">
+                <br />
+                Colony-Size (20)
+            </span>
+        </div>
+
+    </div>
+
+</div>
+
+</body>
+</html>
